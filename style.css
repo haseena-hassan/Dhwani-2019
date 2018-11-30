@@ -845,6 +845,19 @@ img {
   .single-album-area .album-thumb {
     position: relative;
     z-index: 1; }
+    .single-album-area .album-thumb img{
+      height:30vh;
+      
+    }
+    @media only screen and (max-width: 767px) {
+
+.single-album-area .album-thumb img{
+      height:30vh;
+      
+    }
+
+
+    }
     .single-album-area .album-thumb .album-price p {
       position: absolute;
       top: 15px;
