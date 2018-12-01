@@ -1692,6 +1692,25 @@ img {
   .single-web-icon:hover {
     box-shadow: 0 2px 50px 0 rgba(0, 0, 0, 0.15); }
 
+
+    .line-chart {
+  animation: fadeIn 600ms cubic-bezier(.57,.25,.65,1) 1 forwards;
+  opacity: 0;
+  max-width: 640px;
+  width: 100%;
+}
+
+.aspect-ratio {
+  height: 0;
+  padding-bottom: 50%; // 495h / 990w
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
