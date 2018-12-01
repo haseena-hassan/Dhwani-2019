@@ -1710,7 +1710,9 @@ img {
     opacity: 1;
   }
 }
-
+.blog-content p{
+  font-size: 1.1rem;
+}
 /* ====== The End ====== */
 
 /*# sourceMappingURL=style.css.map */
