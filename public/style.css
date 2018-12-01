@@ -86,7 +86,8 @@ img {
   margin-bottom: 50px !important; }
 
 .mb-70 {
-  margin-bottom: 70px !important; }
+  margin-bottom: 70px !important;
+text-align: left;}
 
 .mb-100 {
   margin-bottom: 100px !important; }
@@ -847,13 +848,13 @@ img {
     z-index: 1; }
     .single-album-area .album-thumb img{
       height:30vh;
-      
+
     }
     @media only screen and (max-width: 767px) {
 
 .single-album-area .album-thumb img{
       height:30vh;
-      
+
     }
 
 
