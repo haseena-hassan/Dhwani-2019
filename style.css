@@ -1243,6 +1243,11 @@ img {
       color: #fff; }
   .footer-area .footer-nav li:last-child a {
     padding-right: 0; }
+     @media only screen and (min-width: 768px){
+      .footer-nav{
+        margin-right: 10vh;
+      }
+     }
 
 /* :: 15.0 Breadcumb Area CSS */
 .breadcumb-area {
