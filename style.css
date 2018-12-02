@@ -1314,9 +1314,16 @@ img {
         .single-blog-post .blog-post-thumb .post-date span:first-child {
           font-size: 36px; }
   .single-blog-post .blog-content {
-    background-color: #f5f9fa;
+    
     padding: 45px 40px;
-    border: 1px solid #d8d8d8; }
+    /*background-color: #f5f9fa;
+    border: 1px solid #d8d8d8;*/ }
+    .blog-content p{
+      text-align: justify;
+    }
+    .albums-text p{
+      text-align: justify;
+    }
     @media only screen and (max-width: 767px) {
       .single-blog-post .blog-content {
         padding: 30px 20px; } }
