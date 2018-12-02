@@ -1269,10 +1269,18 @@ img {
     padding-top: 40px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%); }
+     @media only screen and (max-width: 1024px) {
+
+         .breadcumb-area .bradcumbContent {
+          margin-bottom: -3px; }
+
+
+     }
     @media only screen and (max-width: 767px) {
       .breadcumb-area .bradcumbContent {
         width: calc(100% - 60px);
-        padding-top: 30px; } }
+        padding-top: 30px;
+        margin-bottom: -3px; } }
     .breadcumb-area .bradcumbContent p {
       line-height: 1.5;
       font-size: 16px;
@@ -1448,7 +1456,10 @@ img {
           margin: 3px; }
           @media only screen and (min-width: 992px) and (max-width: 1199px) {
             .single-widget-area .widget-content .tags li a {
-              padding: 0 10px; } }
+              padding: 0 10px; }
+              .blog-area{
+                min-height: 65vh;
+                } }
 
 /* :: 17.0 Skills Area CSS */
 .single-skils-area {
